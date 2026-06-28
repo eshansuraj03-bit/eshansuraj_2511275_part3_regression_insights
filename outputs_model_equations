@@ -1,1 +1,21 @@
+## Dummy Variable Approach
+
+The categorical variable "region" was converted into dummy variables to include it in the regression model.
+The dataset contains four categories:
+• North
+• South
+• East
+• West
+
+North was selected as the reference category. Therefore, three dummy variables were created:
+• South Dummy
+• East Dummy
+• West Dummy
+
+Each dummy variable takes the value:
+1 = Store belongs to that region
+0 = Otherwise
+
+When all three dummy variables are 0, the observation belongs to the North region (reference category).
+Using North as the reference category avoids the dummy variable trap and allows the regression coefficients to be interpreted relative to North.
 
