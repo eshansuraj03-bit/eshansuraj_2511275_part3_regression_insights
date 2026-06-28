@@ -7,12 +7,12 @@ The final model selected for analysis is the multiple regression model using:
 * Average Discount Percentage
 * West Dummy Variable
 
-The model achieved an **R² of 0.7873**, indicating that it explains approximately **78.73%** of the variation in monthly sales.
+The model achieved an R² of 0.7873, indicating that it explains approximately 78.73% of the variation in monthly sales.
 
 # Predicted Sales
 Predicted monthly sales were calculated using the regression equation:
 Predicted Monthly Sales = 404245.39 + 10436.88(West Dummy) + 1.1376(Marketing Spend) + 33.5648(Footfall) − 88560.59(Average Discount %)
-
+                        = 326155.9924
 # Residual Calculation
 Residuals were calculated using the formula:
 Residual = Actual Monthly Sales − Predicted Monthly Sales
