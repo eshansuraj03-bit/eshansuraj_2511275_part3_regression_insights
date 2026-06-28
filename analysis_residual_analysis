@@ -11,7 +11,7 @@ The model achieved an **R² of 0.7873**, indicating that it explains approximate
 
 # Predicted Sales
 Predicted monthly sales were calculated using the regression equation:
-Predicted Monthly Sales = 404245.39 + 10436.88(West Dummy) + 1.1376(Marketing Spend) + 33.5648(Footfall) − 88560.59(Average Discount %)**
+Predicted Monthly Sales = 404245.39 + 10436.88(West Dummy) + 1.1376(Marketing Spend) + 33.5648(Footfall) − 88560.59(Average Discount %)
 
 # Residual Calculation
 Residuals were calculated using the formula:
@@ -24,11 +24,11 @@ Residual = Actual Monthly Sales − Predicted Monthly Sales
 
 | Observation | Predicted Sales |        Residual |
 | ----------: | --------------: | --------------: |
-|         112 |     ₹595,587.07 | **₹118,024.09** |
-|         104 |     ₹514,891.48 | **₹110,622.56** |
-|         125 |     ₹812,299.43 | **₹102,244.74** |
-|         254 |     ₹700,141.18 |  **₹98,905.76** |
-|         298 |     ₹666,891.68 |  **₹96,270.77** |
+|         112 |     ₹595,587.07 |   ₹118,024.09   |
+|         104 |     ₹514,891.48 |   ₹110,622.56   |
+|         125 |     ₹812,299.43 |   ₹102,244.74   |
+|         254 |     ₹700,141.18 |   ₹98,905.76    |
+|         298 |     ₹666,891.68 |   ₹96,270.77    | 
 
 # Business Interpretation
 These stores performed significantly better than predicted by the regression model. Possible reasons include:
@@ -44,11 +44,11 @@ The model under-predicted sales for these stores.
 
 | Observation | Predicted Sales |         Residual |
 | ----------: | --------------: | ---------------: |
-|          45 |     ₹740,017.20 | **−₹144,549.60** |
-|          67 |     ₹819,072.60 | **−₹133,693.52** |
-|          33 |     ₹766,187.26 | **−₹124,322.23** |
-|          90 |     ₹745,355.82 | **−₹118,183.92** |
-|          53 |     ₹577,345.20 | **−₹113,810.95** |
+|          45 |     ₹740,017.20 |   −₹144,549.60   |
+|          67 |     ₹819,072.60 |   −₹133,693.52   |
+|          33 |     ₹766,187.26 |   −₹124,322.23   |
+|          90 |     ₹745,355.82 |   −₹118,183.92   |
+|          53 |     ₹577,345.20 |   −₹113,810.95   |
 
 # Business Interpretation
 These stores generated much lower sales than predicted. Possible reasons include:
@@ -62,6 +62,6 @@ The model over-predicted sales for these stores.
 
 # Overall Residual Analysis
 The residuals contain both positive and negative values, indicating that the model does not consistently overestimate or underestimate monthly sales. Instead, prediction errors vary across individual stores.
-Although the regression model explains approximately **78.73%** of the variation in monthly sales, around **21.27%** remains unexplained. This suggests that additional factors, such as promotions, competitor activity, seasonal effects, economic conditions, and management quality, may also influence store performance.
+Although the regression model explains approximately 78.73% of the variation in monthly sales, around 21.27% remains unexplained. This suggests that additional factors, such as promotions, competitor activity, seasonal effects, economic conditions, and management quality, may also influence store performance.
 Overall, the model provides reliable predictions for most stores but should be used alongside business knowledge when making strategic decisions.
 
