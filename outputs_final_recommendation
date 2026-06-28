@@ -1,1 +1,24 @@
+Final Recommendation
+1. Which factors appear most strongly associated with monthly sales?
+The analysis shows that Footfall has the strongest relationship with monthly sales. Marketing Spend also has a positive impact on sales. Average Discount Percentage has a negative relationship with sales.
 
+2. Which variables should leadership focus on?
+Leadership should focus on:
+Increasing Footfall by attracting more customers.
+Investing in Marketing Spend to improve sales.
+Maintaining the right discount strategy instead of offering very high discounts.
+
+3. Which variables should not be over-interpreted?
+The West Dummy (Region) should not be over-interpreted because its p-value is greater than 0.05, meaning it is not statistically significant. Customer Rating also showed a weak relationship in the simple regression model.
+
+4. What business action would you recommend?
+The company should increase customer visits through marketing campaigns, improve store promotions, and avoid giving excessive discounts. These actions are likely to improve monthly sales.
+
+5. What risks or limitations should leadership keep in mind?
+The model explains about 78.73% of the variation in monthly sales, but other factors like competition, seasonal demand, economic conditions, and customer preferences are not included in the model.
+
+6. Why does regression show association but not automatically prove causation?
+Regression shows that two variables move together, but it does not prove that one variable directly causes the other. Other hidden factors may also influence monthly sales, so business decisions should not rely only on regression results.
+
+Final Conclusion
+The Multiple Regression Model is the best model because it explains 78.73% of the variation in monthly sales. The results show that increasing footfall and marketing spend are the most effective ways to improve monthly sales.
